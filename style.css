@@ -22,3 +22,6 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat:no-repeat;
 }
+.blue-color{
+    color:rgb(139, 0, 127);
+}
