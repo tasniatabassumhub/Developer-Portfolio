@@ -26,12 +26,6 @@ h1{
 .blue-color{
     color:rgb(139, 0, 127);
 }
-.flexible-container{
-    background-image: url(images/top-banner.png);
-    background-repeat:no-repeat;
-    background-position: left;
-    border-left: 10px crimson;
-}
 .half-width-song{
     width: 40%;
     margin-left: 5%;
@@ -39,4 +33,17 @@ h1{
     box-shadow: 10px 10px 50px gray;
     padding-left: 5%;
     padding-bottom: 5%;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    border-radius: 10%;
+    border-left: 10px solid;
+}
+#web-dev-song{
+    border-left: 10px;
+    border-image:linear-gradiant(blue yellow);
+    border-image-slice: 1;
+}
+.half-width-image{
+    padding-top: 10%;
 }
